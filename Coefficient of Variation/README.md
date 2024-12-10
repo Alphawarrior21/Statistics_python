@@ -1,5 +1,7 @@
 # Coefficient of Variation
 
+![alt text](image.png)
+
 ### Imagine you have a jar full of candies of different colors. You want to know how much the number of candies of each color varies compared to the average number of candies per color. The Coefficient of Variation helps us understand this variation in a way that is easy to compare, even if we have different types of jars or candies.
 
 ### The CV is calculated by dividing the standard deviation (a measure of how spread out the numbers are) by the mean (average) and then multiplying by 100 to get a percentage.
