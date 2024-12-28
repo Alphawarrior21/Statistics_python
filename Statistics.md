@@ -12,4 +12,4 @@ There are two main branches of statistics:
    - Uses probability theory and techniques like hypothesis testing, confidence intervals, and regression analysis.  
    - Example: "Based on a survey of 100 people, we predict that 60% of the population prefers coffee over tea."
 
-Statistics is essential for decision-making, solving real-world problems, and discovering trends and relationships in data. Would you like to dive into a specific area or example?
+Statistics is essential for decision-making, solving real-world problems, and discovering trends and relationships in data. 
