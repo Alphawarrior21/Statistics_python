@@ -224,3 +224,96 @@ memory performance of 40 people before and after they take the medicine.
 Researchers collect monthly temperature data from a weather station for the years 2010
 and 2020. They want to determine if there is a statistically significant difference in the
 average monthly temperatures between these two years.
+
+## Components of a t-test
+
+1. Formulate the hypothesis to be tested
+
+Null Hypothesis (H0): There is no significant difference between the means of the two related
+groups.
+
+Alternative Hypothesis (H1): There is a significant difference between the means of the two
+related groups.
+
+2. Collect data from each pair of related observations.
+
+3. Calculate descriptive statistics, i.e. the mean and standard deviation.
+
+4. Use the formula to calculate the t-statistic.
+
+5. Based on the calculated t-statistic, determine the critical value from a t-distribution table or use statistical software to find the p-value.
+
+6. Make a Decision: Reject or retain the null hypothesis
+
+
+# Calculate t-test
+
+To calculate the t-value, we need two values:
+
+The difference of the means (difference between the groups)
+
+The standard deviation from the mean (difference within the groups)
+
+This value is called the standard error.
+
+t = Difference between mean
+values
+
+Standard deviation from the
+mean
+
+x̄1 = mean of sample 1
+
+x̄2 = mean of sample 2
+
+s1 = standard deviation of
+sample 1
+
+s2 = standard deviation of
+sample 2
+
+n1 = number of cases in sample
+1
+
+n2 = number of cases in sample
+2
+
+x̄ = mean of the
+sample
+
+μ = reference value
+
+s = standard deviation
+
+n = number of cases
+
+t-value for the one sample
+t-test
+
+x̄d = mean of the difference
+
+0 = reference value
+
+s = standard deviation
+
+n = number of cases
+
+
+# The t-value and the null hypothesis
+
+We now want to use the t-test to find out whether we reject the null hypothesis or not.
+
+The t-value has a corresponding p-value, which represents the probability that what is observed
+could be produced by random data. The lower the p-value, the more confident we can be that
+the difference is not produced by chance and is indeed a reliable difference between the means
+of the two groups.
+
+To decide on the null hypothesis, we can use the t-value in two ways –
+
+Read the critical t-value from a table, or
+
+Calculate the p-value with the help of the t-value.
+
+If t-value > t-critical 🡪 reject H0 🡪 Two means are so different
+
+If p-value < level of significance 🡪 reject H0 🡪 Two means are not equal
