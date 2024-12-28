@@ -1,3 +1,5 @@
+# Hypothesis Tests
+
 Statistical hypothesis: A claim about the value of a parameter or population characteristic.
 
 Examples of possible hypothesis:
@@ -11,7 +13,7 @@ manufacturer.
 If μ1 and μ2 denote the true average breaking strengths of two different types of twine, one
 hypothesis might be the assertion that μ1 – μ2 = 0, or another is the statement μ1 – μ2 > 5.
 
-# Components of a Hypothesis Test
+## Components of a Hypothesis Test
 
 1. Formulate the hypothesis to be tested.
 
@@ -24,7 +26,7 @@ hypothesis might be the assertion that μ1 – μ2 = 0, or another is the statem
 5. Conclusion, written in terms of the original problem.
 
 
-# Formulating the hypothesis to be tested
+## Formulating the hypothesis to be tested
 
 In any hypothesis-­testing problem, there are always two competing hypotheses under
 consideration:
@@ -77,7 +79,7 @@ assertions:
 
 3. Ha: θ < θ0 (in which case the null hypothesis is θ ≥ θ0)
 
-# Errors in Hypothesis Testing
+## Errors in Hypothesis Testing
 
 Choice of a particular test procedure must be based on the probability the test will produce
 incorrect results.
@@ -90,7 +92,7 @@ statement or hypothesis.
 
 • A type II error is not rejecting the null hypothesis when it is false (false-negative).
 
-# Level of significance (Type I errors)
+## Level of significance (Type I errors)
 
 A hypothesis test can never reject the null hypothesis with absolute certainty. There is always
 a certain probability of error that the null hypothesis is rejected even though it is actually true.
@@ -104,12 +106,12 @@ problem will depend on the seriousness of a type I error—
 
 The more serious the type I error, the smaller the significance level should be.
 
-# p-value
+## p-value
 
 The p-value indicates the probability that the observed result or an even more extreme result
 will occur if we hold that the null hypothesis is true.
 
-Say the null hypothesis is that the salary                ![alt text](p-value.png)
+Say the null hypothesis is that the salary               
 of men and women does not differ in
 Germany, then there will certainly still be
 a difference in the sample, e.g. a
@@ -119,13 +121,15 @@ difference of 300 euros or more will occur
 by chance in the sample if there is no
 difference in the population.
 
+ ![alt text](p-value.png)
+
 If the result is a very small probability, you
 can of course ask yourself whether the
 assumption about the population is true at
 all.
 
 
-# When is the p-value used?
+## When is the p-value used?
 
 The p-value is used to either reject or retain (not reject) the null hypothesis in a hypothesis
 test. If the calculated p-value is smaller than the significance level, which in most cases is 5%,
